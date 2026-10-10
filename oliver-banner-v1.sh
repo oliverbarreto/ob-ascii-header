@@ -26,7 +26,7 @@ print_banner() {
   )
   local subtitle='Build One Ideas'
   local -a grad=(27 21 57 93 129 165)
-  local right_width=45 gap=2
+  local right_width=45 gap=6
   local row plain right
   for ((row = 0; row < ${#big[@]}; row++)); do
     plain=''

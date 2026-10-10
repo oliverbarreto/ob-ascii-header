@@ -39,7 +39,7 @@ print_banner() {
     '87;183;142'
     '87;183;142'
   )
-  local right_width=45 gap=2
+  local right_width=45 gap=6
   local row plain right
   for ((row = 0; row < ${#big[@]}; row++)); do
     plain=''
